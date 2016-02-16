@@ -2,7 +2,7 @@
 
 ## Overview
 
-Now that we understand event and behavioural directives, we need to test them to ensure the functionality is as we expect. That way, if we ever upgrade our version of Angular, we can ensure that nothing will break if the built-in directives functionality ever changed. 
+Now that we understand event and behavioural directives, we need to test them to ensure the functionality is as we expect. That way, if we ever upgrade our version of Angular, we can ensure that nothing will break if the built-in directives functionality ever changed.
 
 ## Objectives
 
@@ -13,7 +13,9 @@ Now that we understand event and behavioural directives, we need to test them to
 
 ## Installing Protractor
 
-Let's install protractor. To do this, go into your command line and enter:
+First, let's install Protractor, a library for end-to-end feature testing in Angular. As opposed to Karma and Jasmine, we use Protractor to actually test the HTML side of things. Jasmine only let's us test what's happening programatically. With Protractor, we can click on buttons and enter text into inputs, etc. This way, we're interacting with our site the same way our users will and testing the results that they'll get back.
+
+ To install Protractor, go into your command line and enter:
 
 ```bash
 sudo npm install -g protractor
@@ -39,13 +41,11 @@ webdriver-manager start
 
 ### Writing a test
 
-As opposed to Karma and Jasmine, we use protractor to actually test the HTML side of things. With protractor, we can click on buttons and enter text into inputs, etc.
-
 Let's write a protractor test.
 
 Protractor lets us grab web pages and interact with elements on the page.
 
-To start, we're going to grab Angular's website.
+To start, we need to load a page to interact with. For this example, we're going to grab Angular's website. To do this, we'll call the `get` method on our `browser` object an pass in a URL. 
 
 ```js
 describe('Angular Website', function() {
