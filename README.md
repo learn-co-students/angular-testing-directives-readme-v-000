@@ -45,7 +45,7 @@ Let's write a protractor test.
 
 Protractor lets us grab web pages and interact with elements on the page.
 
-To start, we need to load a page to interact with. For this example, we're going to grab Angular's website. To do this, we'll call the `get` method on our `browser` object an pass in a URL. 
+To start, we need to load a page to interact with. For this example, we're going to grab Angular's website. To do this, we'll call the `get` method on our `browser` object and pass in a URL. 
 
 ```js
 describe('Angular Website', function() {
@@ -153,3 +153,5 @@ describe('angularjs homepage todo list', function() {
 We can run this test by running `protractor conf.js`. It will then launch a Chrome instance, go to the Angular website and run our tests.
 
 This simplistic API allows us to click and interact with a lot of different items on our pages, so we can test all of our directives functionality.
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/angular-testing-directives-readme'>Angular Testing Directives</a> on Learn.co and start learning to code for free.</p>
