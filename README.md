@@ -18,7 +18,7 @@ First, let's install Protractor, a library for end-to-end feature testing in Ang
  To install Protractor, go into your command line and enter:
 
 ```bash
-sudo npm install -g protractor
+npm install -g protractor
 ```
 
 Make sure this is working by entering:
