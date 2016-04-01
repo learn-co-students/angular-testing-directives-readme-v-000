@@ -10,3 +10,5 @@ describe('angularjs homepage todo list', function() {
 		expect(todoList.get(2).getText()).toEqual('Writing tests!!');
 	});
 });
+
+//This test works great. Angular is AWESOME!!!
