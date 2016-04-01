@@ -13,7 +13,7 @@ Now that we understand event and behavioural directives, we need to test them to
 
 ## Installing Protractor
 
-First, let's install Protractor, a library for end-to-end feature testing in Angular. As opposed to Karma and Jasmine, we use Protractor to actually test the HTML side of things. Jasmine only let's us test what's happening programatically. With Protractor, we can click on buttons and enter text into inputs, etc. This way, we're interacting with our site the same way our users will and testing the results that they'll get back.
+First, let's install Protractor, a library for end-to-end feature testing in Angular. As opposed to Karma and Jasmine, we use Protractor to actually test the HTML side of things. Jasmine only let's us test what's happening programatically. With Protractor, we can click on buttons and enter text into inputs, etc. This way, we are interacting with our site the same way our users will and testing the results that they'll get back.
 
  To install Protractor, go into your command line and enter:
 
