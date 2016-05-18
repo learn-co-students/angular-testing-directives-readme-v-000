@@ -1,6 +1,7 @@
 describe('angularjs homepage todo list', function() {
 	it('should add a todo', function() {
 		browser.get('https://angularjs.org');
+    
 
 		element(by.model('todoList.todoText')).sendKeys('Writing tests!!');
 		element(by.css('[value="add"]')).click();
