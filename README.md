@@ -45,7 +45,7 @@ Let's write a protractor test.
 
 Protractor lets us grab web pages and interact with elements on the page.
 
-To start, we need to load a page to interact with. For this example, we're going to grab Angular's website. To do this, we'll call the `get` method on our `browser` object and pass in a URL. 
+To start, we need to load a page to interact with. For this example, we're going to grab Angular's website. To do this, we'll call the `get` method on our `browser` object and pass in a URL.
 
 ```js
 describe('Angular Website', function() {
@@ -134,7 +134,7 @@ describe('angularjs homepage todo list', function() {
 ```
 
 Sorted! We are now checking that there's three elements. Let's make sure that the new todo matches the text we put into the input.
-
+i gots foo
 ```js
 describe('angularjs homepage todo list', function() {
 	it('should add a todo', function() {
