@@ -133,7 +133,7 @@ describe('angularjs homepage todo list', function() {
 });
 ```
 
-Sorted! We are now checking that there's three elements. Let's make sure that the new todo matches the text we put into the input.
+Sorted! We are now checking that there are three elements. Let's make sure that the new todo matches the text we put into the input.
 
 ```js
 describe('angularjs homepage todo list', function() {
@@ -155,3 +155,5 @@ We can run this test by running `protractor conf.js`. It will then launch a Chro
 This simplistic API allows us to click and interact with a lot of different items on our pages, so we can test all of our directives functionality.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/angular-testing-directives-readme'>Angular Testing Directives</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/angular-testing-directives-readme'>Angular Testing Directives </a> on Learn.co and start learning to code for free.</p>
