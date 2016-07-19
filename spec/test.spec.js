@@ -1,4 +1,4 @@
-describe('angularjs homepage todo list', function() {
+describe('angularjs website', function() {
 	it('should add a todo', function() {
 		browser.get('https://angularjs.org');
 
