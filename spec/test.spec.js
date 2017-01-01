@@ -2,7 +2,7 @@ describe('angularjs homepage todo list', function() {
 	it('should add a todo', function() {
 		browser.get('https://angularjs.org');
 
-		element(by.model('todoList.todoText')).sendKeys('Writing tests!!');
+		element(by.model('todoList.todoText')).sendKeys('Writing Tests!!');
 		element(by.css('[value="add"]')).click();
 
 		var todoList = element.all(by.repeater('todo in todoList.todos'));
