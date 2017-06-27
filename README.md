@@ -1,4 +1,4 @@
-# Testing Directives
+# Angular Testing Directives
 
 ## Overview
 
@@ -13,7 +13,7 @@ Now that we understand event and behavioural directives, we need to test them to
 
 ## Installing Protractor
 
-First, let's install Protractor, a library for end-to-end feature testing in Angular. As opposed to Karma and Jasmine, we use Protractor to actually test the HTML side of things. Jasmine only let's us test what's happening programatically. With Protractor, we can click on buttons and enter text into inputs, etc. This way, we're interacting with our site the same way our users will and testing the results that they'll get back.
+First, let's install Protractor, a library for end-to-end feature testing in Angular. As opposed to Karma and Jasmine, we use Protractor to actually test the HTML side of things. Jasmine only lets us test what's happening programatically. With Protractor, we can click on buttons and enter text into inputs, etc. This way, we're interacting with our site the same way our users will and testing the results that they'll get back.
 
  To install Protractor, go into your command line and enter:
 
@@ -152,8 +152,6 @@ describe('angularjs homepage todo list', function() {
 
 We can run this test by running `protractor conf.js`. It will then launch a Chrome instance, go to the Angular website and run our tests.
 
-This simplistic API allows us to click and interact with a lot of different items on our pages, so we can test all of our directives functionality.
+This simplistic API allows us to click and interact with a lot of different items on our pages, so we can test the functionality of all of our directives.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/angular-testing-directives-readme'>Angular Testing Directives</a> on Learn.co and start learning to code for free.</p>
-
-<p class='util--hide'>View <a href='https://learn.co/lessons/angular-testing-directives-readme'>Angular Testing Directives </a> on Learn.co and start learning to code for free.</p>
