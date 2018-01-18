@@ -10,3 +10,5 @@ describe('angularjs homepage todo list', function() {
 		expect(todoList.get(2).getText()).toEqual('Writing tests!!');
 	});
 });
+
+// uses selenium webdriver to go to page & type in stuff, test checks text & # of elements on to do list 
