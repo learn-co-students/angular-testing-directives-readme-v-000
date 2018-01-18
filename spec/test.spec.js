@@ -9,4 +9,4 @@ describe('angularjs homepage todo list', function() {
 		expect(todoList.count()).toEqual(3);
 		expect(todoList.get(2).getText()).toEqual('Writing tests!!');
 	});
-});
+}); 
