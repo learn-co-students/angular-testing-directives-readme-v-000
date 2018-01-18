@@ -10,3 +10,9 @@ describe('angularjs homepage todo list', function() {
 		expect(todoList.get(2).getText()).toEqual('Writing tests!!');
 	});
 });
+
+describe('Angular Website', function() {
+    it('should add a todo', function() {
+        browser.get('https://angularjs.org');
+    });
+});
