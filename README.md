@@ -1,6 +1,6 @@
 # Angular Testing Directives
 
-## Overview
+## Overview.
 
 Now that we understand event and behavioural directives, we need to test them to ensure the functionality is as we expect. That way, if we ever upgrade our version of Angular, we can ensure that nothing will break if the built-in directives functionality ever changed.
 
